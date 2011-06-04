@@ -1,0 +1,3 @@
+update checkh set numdoc=num;
+update reporth set num=z,numdoc=z;
+update pays set sn=checkh.sn,numdoc=checkh.numdoc, z=checkh.z from pays,checkh where pays.idparent=checkh.id;
