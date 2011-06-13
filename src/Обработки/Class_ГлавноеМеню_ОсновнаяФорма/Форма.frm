@@ -65,7 +65,7 @@
 			¬ысота: 22
 			ѕор€докќбхода: 4154
 			ќсн‘лаги: Ўрифтѕо”молчанию, ÷вет“екстајвто
-			Hint: "3D_Active_Button\nFile=ѕанельћеню.3bt\n# нопка, которую можно нажать только мышкой\nStyle=100\nHyperlink=http://www.rbsoft.ru\n\nPicture=logo.jpg\nPictureReflectivityEnabled=1\nPictureReflectivityPerc =50\n"
+			Hint: "3D_Active_Button\nFile=ѕанельћеню.3bt\n# нопка, которую можно нажать только мышкой\nStyle=7\nHyperlink=http://www.rbsoft.ru\n\nPicture=logo.jpg\nPictureReflectivityEnabled=1\nPictureReflectivityPerc =50\n"
 			—лой: ќбщий
 		}
 		STATIC: ткт»нфо
