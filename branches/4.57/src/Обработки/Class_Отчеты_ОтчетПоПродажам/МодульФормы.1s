@@ -38,6 +38,7 @@
 	Сам.ДобавитьПолеГруппировки("Чек","ID","Чек",1);
 	Сам.ДобавитьПолеГруппировки("Товар","GoodID","Товар",1);
 
+	Сам.ДобавитьПолеПоказателя("Количество","TotalCount","Количество",1);
 	Сам.ДобавитьПолеПоказателя("СуммаБезСкидки","Summ","Сумма без скидки",1);
 	Сам.ДобавитьПолеПоказателя("Скидка","Discount","Скидка",1);
 	Сам.ДобавитьПолеПоказателя("Всего","Total","Всего",1);
@@ -66,7 +67,7 @@
 	|Header.SellName as SellerName,
 	|Header.UserID as UserID,
 	|Header.UserName as UserName,
-	|Table.IdGood as IdGood,
+	|Table.IdGood as GoodId,
 	|Table.Name as Name,
 	|Table.Count*Table.Coef as TotalCount,
 	|Table.Count as Count,
@@ -118,6 +119,7 @@
 
 
 	ТекстЗапроса=ТекстЗапроса+?(ДопУсловие="","","WHERE "+ДопУсловие);
+	
 
 	возврат ТекстЗапроса;
 КонецФункции
